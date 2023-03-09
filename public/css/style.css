@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Big Shoulders Display Black';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/BigShouldersDisplay-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/BigShouldersDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/BigShouldersDisplay-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/BigShouldersDisplay-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/BigShouldersDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/BigShouldersDisplay-SemiBold.ttf');
+}
+
+nav .row {
+    background-color: transparent !important;
+}
+
+.bg-image{
+    background-image: url("../img/banner-BG-min.png");
+    height: 120vh; background-size: cover; background-position: bottom center;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.db-color-yellow{
+    color:#FDD716;
+}
+
+.db-color-gray{
+    color:#212121;
+}
+
+.db-title{
+    font-size: 120px;
+    font-family: 'Big Shoulders Display Black';
+    margin-top: 125px !important;
+}
+
+.db-margin-button{
+    margin-top: 100px;
+}
+
+.db-btn{
+    padding: 20px 70px 20px 70px;
+    border: none;
+    background-color: #212121;
+    color: white;
+}
+.db-let {
+    font-family: 'Big Shoulders Display';
+}
+
+.db-btn:hover{
+    background-color: #FDD716;
+    transition: 0.6s;
+}
+
+.db-auth{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    background-color: #FDD716;
+    color: white;
+}
+
+.db-btn2{
+    padding: 20px 70px 20px 70px;
+    border: none;
+    background-color: #FDD716;
+    color: white;
+}
+
+.db-btn2:hover{
+    background-color: #212121;
+    transition: 0.6s;
+}
+
+.padding-bot-top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sectie4 .container {
+    max-width: 100%;
+    background-color: #FDD716;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.sectie4 .container a {
+    margin-top: 25px;
+    padding: 5px 80px 5px 80px !important;
+    font-size: 25px;
+    font-family: "Big Shoulders Display Black";
+}
+
+.sectie4 .container a:hover {
+    color: white !important;
+    transition: 0.6s;
+}
+
+.sectie4 .container h1 {
+    font-family: "Big Shoulders Display ExtraBold";
+}
+
+.sectie-categorie .container .row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.db-background-gray{
+    background-color: #212121;
+}
+
+.db-contactText{
+    font-size: 55px;
+}
+
+.db-imgwidth{
+    width: 100%;
+}
+
+.db-margin{
+    margin: 100px;
+}
+
+.db-quote{
+    width: 100%;
+    background-color: #FDD716 ;
+}
+
+.db-subtitle{
+    font-size: 50px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+.db-horeca{
+    background-image: url("../img/db-horeca.png");
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    padding: 175px;
+}
+
+.db-office{
+    background-image: url("../img/db-office.png");
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    padding: 175px;
+}
+
+.db-home{
+    background-image: url("../img/db-home.png");
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    padding: 175px;
+}
+
+.db-force {
+    font-size: 20px;
+    margin-left: 0 !important;
+    padding-left: 10px !important;
+}
+
+.db-link{
+    text-decoration: none;
+    color: white;
+}
+
+.db-link:hover{
+    color: #FDD716;
+}
+
+.text-yellow {
+    color: #FDD716 !important;
+}
+
+.cookiealertcustom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: #ecf0f1;
+    background: #FDD716;
+}
+
+/* PRIVACY LINK MIJN GEGEVENS PAGINA */
+.privacy-link-mail{
+    text-decoration: none;
+    color: gray;
+}
